@@ -10,12 +10,12 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import vairy.debug.DebugMethod;
+import vairy.debug.DebugWriter;
 import vairy.invoker.VCommandParam;
 import vairy.invoker.VInvoker;
 import vairy.invoker.exeption.IllegalParamException;
 import command.param.ParamReplace;
-import debug.writer.DebugMethod;
-import debug.writer.DebugWriter;
 
 public class Console implements Resource{
 	private final VInvoker invoker;

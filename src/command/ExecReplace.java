@@ -15,6 +15,8 @@ import com.orangesignal.csv.manager.CsvLoader;
 import com.orangesignal.csv.manager.CsvManagerFactory;
 
 import textconverter.IteratableConverter;
+import vairy.debug.DebugMethod;
+import vairy.debug.DebugWriter;
 import vairy.invoker.VCommand;
 import vairy.io.FileReader;
 import vairy.io.FileWriter;
@@ -23,8 +25,6 @@ import command.param.ParamReplace;
 import command.param.ParamReplaceCommon;
 import command.util.ReplaceFileManager;
 import command.util.ReplaceUtil;
-import debug.writer.DebugMethod;
-import debug.writer.DebugWriter;
 
 public class ExecReplace implements VCommand{
 	private DebugWriter		dbgwriter;

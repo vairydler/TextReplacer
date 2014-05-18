@@ -4,14 +4,14 @@ import java.util.List;
 
 import textconverter.IteratableConverter;
 import textconverter.MappingConverter;
+import vairy.debug.DebugMethod;
+import vairy.debug.DebugWriter;
 import vairy.io.FileWriter;
 import vairy.tagreplacer.TagReplacer;
 import command.param.ParamReplace;
 import command.param.ParamReplaceMap;
 import command.util.ReplaceFileManager;
 import command.util.ReplaceUtil;
-import debug.writer.DebugMethod;
-import debug.writer.DebugWriter;
 
 public class ExecReplaceMap extends ExecReplace{
 	private DebugWriter		dbgwriter;
