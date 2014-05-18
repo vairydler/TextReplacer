@@ -13,7 +13,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/Common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/VairyCommon"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TagReplacer"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
