@@ -1,0 +1,7 @@
+テスト項目1,,,,テストケース1,,
+SW,フラグ1,フラグ2,フラグ3,SW,エッジ,"追加
+要素"
+SW,flg1,flg2,flg3,SW2,edge,append1
+ON,1,0,true,オン,LO→HI,"  例外的にあんなことする。
+"
+OFF,0,1,false,オフ,HI→LO,
